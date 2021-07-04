@@ -1,0 +1,6 @@
+expo install @expo-google-fonts/rajdhani expo-font
+expo install @expo-google-fonts/inter expo-font
+
+#togheter
+
+yarn add @react-navigation/stack
