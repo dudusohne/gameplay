@@ -3,14 +3,14 @@ import {
     View,
     Text
 } from 'react-native';
-import { styles } from './styles';
 import { Avatar } from '../Avatar';
+import { styles } from './styles';
 
 export function Profile() {
     return (
         <View style={styles.container}>
-            <Avatar 
-            urlImage="https://github.com/dudusohne.png" 
+            <Avatar
+                urlImage="https://github.com/dudusohne.png"
             />
 
             <View>

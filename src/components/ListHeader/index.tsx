@@ -7,9 +7,9 @@ type Props = {
     subtitle: string;
 }
 
-export function ListHeader({ 
-    title, 
-    subtitle 
+export function ListHeader({
+    title,
+    subtitle
 }: Props) {
 
     return (

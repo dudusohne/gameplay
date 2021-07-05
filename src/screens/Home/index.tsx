@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
+
 import { CategorySelect } from '../../components/CategorySelect';
-import { View, FlatList, Text } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import { View, FlatList } from 'react-native';
 import { ButtonAdd } from '../../components/ButtonAdd';
 import { Profile } from '../../components/Profile';
 import { ListHeader } from '../../components/ListHeader';
 import { Background } from '../../components/Background';
 import { Appointment } from '../../components/Appointment';
 import { ListDivider } from '../../components/ListDivider';
+
 import { styles } from './styles';
-import { useNavigation } from '@react-navigation/native';
 
 export function Home() {
 

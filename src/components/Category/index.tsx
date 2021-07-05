@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { View, Text } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';

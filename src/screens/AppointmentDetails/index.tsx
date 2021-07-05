@@ -1,12 +1,13 @@
 import React from 'react';
 
-import { View, ImageBackground } from 'react-native';
+import { ImageBackground } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 import { Background } from '../../components/Background';
-import { Fontisto } from '@expo/vector-icons';
 import { Header } from '../../components/Header';
-import { theme } from '../../global/styles/theme';
+import { Fontisto } from '@expo/vector-icons';
 import bannerImg from '../../assets/banner.png';
+
+import { theme } from '../../global/styles/theme';
 import { styles } from './styles';
 
 export function AppointmentDetails() {
