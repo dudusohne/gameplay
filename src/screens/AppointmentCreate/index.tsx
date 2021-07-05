@@ -14,7 +14,6 @@ import { Feather } from '@expo/vector-icons';
 import { styles } from './styles';
 import { theme } from '../../global/styles/theme';
 
-
 export function AppointmentCreate() {
     const [category, setCategory] = useState('');
 
@@ -46,7 +45,6 @@ export function AppointmentCreate() {
                                 //   <View style={styles.image} />
                                 <GuildIcon />
                             }
-
 
                             <View style={styles.selectBody}>
                                 <Text style={styles.label}>
@@ -113,10 +111,10 @@ export function AppointmentCreate() {
                             title="Acessar"
                         />
                     </View>
-
                 </View>
-
             </ScrollView>
+
+
         </KeyboardAvoidingView>
     );
 }
