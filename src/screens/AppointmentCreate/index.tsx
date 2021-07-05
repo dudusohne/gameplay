@@ -14,7 +14,7 @@ export function AppointmentCreate() {
         <Background>
             <Header
                 title="Agendar partida"
-            />
+            /> 
 
 
         </Background>
