@@ -59,7 +59,6 @@ export function Home() {
                 <ButtonAdd />
             </View>
 
-
             <CategorySelect
                 categorySelected={category}
                 setCategory={handleCategorySelect}
@@ -87,8 +86,5 @@ export function Home() {
 
             </View>
         </Background>
-
-
-
     )
 }
