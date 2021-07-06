@@ -74,7 +74,6 @@ export function Home() {
                     subtitle="Total 6"
                 />
 
-
             </View>
             <FlatList
                 data={appointments}

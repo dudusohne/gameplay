@@ -10,7 +10,6 @@ import { TextArea } from '../../components/TextArea';
 import { Button } from '../../components/Button';
 import { Guilds } from '../Guilds';
 import { GuildProps } from '../../components/Guild';
-import { Background } from '../../components/Background';
 import { RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
 
