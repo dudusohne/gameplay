@@ -8,6 +8,7 @@ import { GuildIcon } from '../../components/GuildIcon';
 import { SmallInput } from '../../components/SmallInput';
 import { TextArea } from '../../components/TextArea';
 import { Button } from '../../components/Button';
+import { Background } from '../../components/Background';
 import { Guilds } from '../Guilds';
 import { GuildProps } from '../../components/Guild';
 import { RectButton } from 'react-native-gesture-handler';
@@ -35,11 +36,16 @@ export function AppointmentCreate() {
         setGuild(guildSelect);
     }
 
+    function handleCategorySelect(categoryId: string) {
+        setCategory(categoryId);
+    }
+
     return (
         <KeyboardAvoidingView
             style={styles.container}
             behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         >
+            <Background>
             <ScrollView>
                 <Header
                     title="Agendar partida"
@@ -52,7 +58,7 @@ export function AppointmentCreate() {
 
                 <CategorySelect
                     hasCheckBox
-                    setCategory={setCategory}
+                    setCategory={handleCategorySelect}
                     categorySelected={category}
                 />
 
@@ -80,7 +86,7 @@ export function AppointmentCreate() {
 
                     <View style={styles.field}>
                         <View>
-                            <Text style={styles.label}>
+                            <Text style={[styles.label, { marginBottom: 12 }]}>
                                 Dia e mês
                             </Text>
 
@@ -94,7 +100,7 @@ export function AppointmentCreate() {
                         </View>
 
                         <View>
-                            <Text style={styles.label}>
+                            <Text style={[styles.label, { marginBottom: 12 }]}>
                                 Hora e minuto
                             </Text>
 
@@ -130,6 +136,7 @@ export function AppointmentCreate() {
                     </View>
                 </View>
             </ScrollView>
+            </Background> 
             <ModalView visible={openGuildsModal} closeModal={handleCloseModal}>
                 <Guilds
                     handleGuildSelect={handleGuildSelect} />
