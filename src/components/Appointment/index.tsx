@@ -73,7 +73,6 @@ export function Appointment({ data, ...rest }: Props) {
                     </View>
                 </View>
             </View>
-
         </RectButton>
     )
 }

@@ -24,8 +24,6 @@ export function Avatar({ urlImage }: Props) {
                     style={styles.avatar}
                 />
             </LinearGradient>
-
-
         </View>
     )
 }

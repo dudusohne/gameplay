@@ -29,7 +29,6 @@ export function ModalView({
             <Background>
               <View style={styles.bar} />
               {children}
-
             </Background>
           </View>
         </View>
