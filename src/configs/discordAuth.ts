@@ -11,4 +11,3 @@ export {
     CLIENT_ID,
     CDN_IMAGE
 }
-
